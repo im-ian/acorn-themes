@@ -1,0 +1,38 @@
+/* @mode light */
+/* Palette: Rosé Pine Dawn — https://github.com/rose-pine/vscode (MIT) */
+:root[data-acorn-theme="rose-pine-dawn"] {
+  --color-bg: #faf4ed;
+  --color-bg-elevated: #fffaf3;
+  --color-bg-sidebar: #f2e9e1;
+  --color-input: #f9f2ea;
+  --color-input-hover: #f2e9e1;
+  --color-input-border: #cecacd;
+  --color-fg: #575279;
+  --color-fg-muted: #797593;
+  --color-border: #dfdad9;
+  --color-accent: #d7827e;
+  --color-accent-hover: #b4637a;
+  --color-on-accent: #26233a;
+  --color-danger: #b4637a;
+  --color-warning: #ea9d34;
+  --color-terminal-bg: #faf4ed;
+  --color-terminal-fg: #575279;
+  --color-selection: rgba(110, 106, 134, 0.18);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #575279;
+  --color-term-red: #b4637a;
+  --color-term-green: #286983;
+  --color-term-yellow: #ea9d34;
+  --color-term-blue: #56949f;
+  --color-term-magenta: #907aa9;
+  --color-term-cyan: #d7827e;
+  --color-term-white: #f2e9e1;
+  --color-term-bright-black: #797593;
+  --color-term-bright-red: #b4637a;
+  --color-term-bright-green: #286983;
+  --color-term-bright-yellow: #ea9d34;
+  --color-term-bright-blue: #56949f;
+  --color-term-bright-magenta: #907aa9;
+  --color-term-bright-cyan: #d7827e;
+  --color-term-bright-white: #fffaf3;
+}

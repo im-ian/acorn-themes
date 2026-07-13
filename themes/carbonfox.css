@@ -1,0 +1,37 @@
+/* Palette: Carbonfox — https://github.com/EdenEast/nightfox.nvim (MIT) */
+:root[data-acorn-theme="carbonfox"] {
+  --color-bg: #161616;
+  --color-bg-elevated: #202020;
+  --color-bg-sidebar: #0f0f0f;
+  --color-input: #202020;
+  --color-input-hover: #2a2a2a;
+  --color-input-border: #525253;
+  --color-fg: #f2f4f8;
+  --color-fg-muted: #77797d;
+  --color-border: #353535;
+  --color-accent: #78a9ff;
+  --color-accent-hover: #33b1ff;
+  --color-on-accent: #0f0f0f;
+  --color-danger: #ee5396;
+  --color-warning: #be95ff;
+  --color-terminal-bg: #161616;
+  --color-terminal-fg: #f2f4f8;
+  --color-selection: #2a2a2a;
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #282828;
+  --color-term-red: #ee5396;
+  --color-term-green: #25be6a;
+  --color-term-yellow: #08bdba;
+  --color-term-blue: #78a9ff;
+  --color-term-magenta: #be95ff;
+  --color-term-cyan: #33b1ff;
+  --color-term-white: #dfdfe0;
+  --color-term-bright-black: #525253;
+  --color-term-bright-red: #f16eaa;
+  --color-term-bright-green: #43ca7e;
+  --color-term-bright-yellow: #2bc9c6;
+  --color-term-bright-blue: #91b8ff;
+  --color-term-bright-magenta: #cba9ff;
+  --color-term-bright-cyan: #54bdff;
+  --color-term-bright-white: #ffffff;
+}

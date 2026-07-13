@@ -1,0 +1,37 @@
+/* Palette: Kanagawa Dragon — https://github.com/rebelot/kanagawa.nvim (MIT) */
+:root[data-acorn-theme="kanagawa-dragon"] {
+  --color-bg: #181616;
+  --color-bg-elevated: #282727;
+  --color-bg-sidebar: #12120f;
+  --color-input: #282727;
+  --color-input-hover: #393836;
+  --color-input-border: #625e5a;
+  --color-fg: #c5c9c5;
+  --color-fg-muted: #7a8382;
+  --color-border: #393836;
+  --color-accent: #8ba4b0;
+  --color-accent-hover: #949fb5;
+  --color-on-accent: #12120f;
+  --color-danger: #c4746e;
+  --color-warning: #c4b28a;
+  --color-terminal-bg: #0d0c0c;
+  --color-terminal-fg: #c5c9c5;
+  --color-selection: rgba(139, 164, 176, 0.28);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #0d0c0c;
+  --color-term-red: #c4746e;
+  --color-term-green: #87a987;
+  --color-term-yellow: #c4b28a;
+  --color-term-blue: #8ba4b0;
+  --color-term-magenta: #a292a3;
+  --color-term-cyan: #8ea4a2;
+  --color-term-white: #c5c9c5;
+  --color-term-bright-black: #625e5a;
+  --color-term-bright-red: #d78984;
+  --color-term-bright-green: #a3b9a3;
+  --color-term-bright-yellow: #d6c7a7;
+  --color-term-bright-blue: #a6b8c0;
+  --color-term-bright-magenta: #b9aebb;
+  --color-term-bright-cyan: #a8bab8;
+  --color-term-bright-white: #e1e4e1;
+}

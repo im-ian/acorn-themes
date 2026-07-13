@@ -1,0 +1,38 @@
+/* @mode light */
+/* Palette: Vitesse Light — https://github.com/antfu/vscode-theme-vitesse (MIT) */
+:root[data-acorn-theme="vitesse-light"] {
+  --color-bg: #ffffff;
+  --color-bg-elevated: #f7f7f7;
+  --color-bg-sidebar: #f1f1ef;
+  --color-input: #f7f7f7;
+  --color-input-hover: #eeeeeb;
+  --color-input-border: #dfdfdc;
+  --color-fg: #393a34;
+  --color-fg-muted: #7d7e77;
+  --color-border: #e7e7e3;
+  --color-accent: #1c6b48;
+  --color-accent-hover: #1e754f;
+  --color-on-accent: #ffffff;
+  --color-danger: #ab5959;
+  --color-warning: #a65e2b;
+  --color-terminal-bg: #ffffff;
+  --color-terminal-fg: #393a34;
+  --color-selection: rgba(34, 34, 34, 0.12);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #121212;
+  --color-term-red: #ab5959;
+  --color-term-green: #1e754f;
+  --color-term-yellow: #bda437;
+  --color-term-blue: #296aa3;
+  --color-term-magenta: #a13865;
+  --color-term-cyan: #2993a3;
+  --color-term-white: #dbd7ca;
+  --color-term-bright-black: #777777;
+  --color-term-bright-red: #ab5959;
+  --color-term-bright-green: #1e754f;
+  --color-term-bright-yellow: #bda437;
+  --color-term-bright-blue: #296aa3;
+  --color-term-bright-magenta: #a13865;
+  --color-term-bright-cyan: #2993a3;
+  --color-term-bright-white: #ffffff;
+}

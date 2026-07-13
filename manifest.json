@@ -2,32 +2,11 @@
   "schemaVersion": 1,
   "themes": [
     {
-      "id": "retro-terminal",
-      "label": "Retro Terminal",
-      "mode": "dark",
-      "version": 1,
-      "file": "themes/retro-terminal.css"
-    },
-    {
-      "id": "amber-terminal",
-      "label": "Amber Terminal",
-      "mode": "dark",
-      "version": 1,
-      "file": "themes/amber-terminal.css"
-    },
-    {
       "id": "oled-mono",
       "label": "OLED Mono",
       "mode": "dark",
       "version": 1,
       "file": "themes/oled-mono.css"
-    },
-    {
-      "id": "cobalt-circuit",
-      "label": "Cobalt Circuit",
-      "mode": "dark",
-      "version": 1,
-      "file": "themes/cobalt-circuit.css"
     },
     {
       "id": "one-dark-pro",
@@ -37,18 +16,18 @@
       "file": "themes/one-dark-pro.css"
     },
     {
-      "id": "monokai-pro",
-      "label": "Monokai Pro",
-      "mode": "dark",
-      "version": 1,
-      "file": "themes/monokai-pro.css"
-    },
-    {
       "id": "kanagawa-wave",
       "label": "Kanagawa Wave",
       "mode": "dark",
       "version": 1,
       "file": "themes/kanagawa-wave.css"
+    },
+    {
+      "id": "kanagawa-dragon",
+      "label": "Kanagawa Dragon",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/kanagawa-dragon.css"
     },
     {
       "id": "everforest-dark",
@@ -63,6 +42,13 @@
       "mode": "dark",
       "version": 1,
       "file": "themes/github-dark.css"
+    },
+    {
+      "id": "github-dark-dimmed",
+      "label": "GitHub Dark Dimmed",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/github-dark-dimmed.css"
     },
     {
       "id": "solarized-dark",
@@ -107,11 +93,32 @@
       "file": "themes/catppuccin-mocha.css"
     },
     {
+      "id": "catppuccin-frappe",
+      "label": "Catppuccin Frappé",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/catppuccin-frappe.css"
+    },
+    {
+      "id": "catppuccin-macchiato",
+      "label": "Catppuccin Macchiato",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/catppuccin-macchiato.css"
+    },
+    {
       "id": "gruvbox-dark",
       "label": "Gruvbox Dark",
       "mode": "dark",
       "version": 1,
       "file": "themes/gruvbox-dark.css"
+    },
+    {
+      "id": "gruvbox-material-dark",
+      "label": "Gruvbox Material Dark",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/gruvbox-material-dark.css"
     },
     {
       "id": "nord",
@@ -122,10 +129,17 @@
     },
     {
       "id": "rose-pine",
-      "label": "Rose Pine",
+      "label": "Rosé Pine",
       "mode": "dark",
       "version": 1,
       "file": "themes/rose-pine.css"
+    },
+    {
+      "id": "rose-pine-moon",
+      "label": "Rosé Pine Moon",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/rose-pine-moon.css"
     },
     {
       "id": "ayu-dark",
@@ -135,46 +149,67 @@
       "file": "themes/ayu-dark.css"
     },
     {
-      "id": "midnight-iris",
-      "label": "Midnight Iris",
+      "id": "ayu-mirage",
+      "label": "Ayu Mirage",
       "mode": "dark",
       "version": 1,
-      "file": "themes/midnight-iris.css"
+      "file": "themes/ayu-mirage.css"
     },
     {
-      "id": "ember-forge",
-      "label": "Ember Forge",
+      "id": "night-owl",
+      "label": "Night Owl",
       "mode": "dark",
       "version": 1,
-      "file": "themes/ember-forge.css"
+      "file": "themes/night-owl.css"
     },
     {
-      "id": "sea-glass",
-      "label": "Sea Glass",
+      "id": "noctis",
+      "label": "Noctis",
       "mode": "dark",
       "version": 1,
-      "file": "themes/sea-glass.css"
+      "file": "themes/noctis.css"
     },
     {
-      "id": "sakura-night",
-      "label": "Sakura Night",
+      "id": "vitesse-dark",
+      "label": "Vitesse Dark",
       "mode": "dark",
       "version": 1,
-      "file": "themes/sakura-night.css"
+      "file": "themes/vitesse-dark.css"
     },
     {
-      "id": "graphite-gold",
-      "label": "Graphite Gold",
+      "id": "horizon",
+      "label": "Horizon",
       "mode": "dark",
       "version": 1,
-      "file": "themes/graphite-gold.css"
+      "file": "themes/horizon.css"
     },
     {
-      "id": "blueprint",
-      "label": "Blueprint",
+      "id": "nightfox",
+      "label": "Nightfox",
       "mode": "dark",
       "version": 1,
-      "file": "themes/blueprint.css"
+      "file": "themes/nightfox.css"
+    },
+    {
+      "id": "carbonfox",
+      "label": "Carbonfox",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/carbonfox.css"
+    },
+    {
+      "id": "vesper",
+      "label": "Vesper",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/vesper.css"
+    },
+    {
+      "id": "iceberg",
+      "label": "Iceberg",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/iceberg.css"
     },
     {
       "id": "note",
@@ -182,13 +217,6 @@
       "mode": "light",
       "version": 1,
       "file": "themes/note.css"
-    },
-    {
-      "id": "paper-ledger",
-      "label": "Paper Ledger",
-      "mode": "light",
-      "version": 1,
-      "file": "themes/paper-ledger.css"
     },
     {
       "id": "github-light",
@@ -240,32 +268,88 @@
       "file": "themes/gruvbox-light.css"
     },
     {
-      "id": "porcelain-blue",
-      "label": "Porcelain Blue",
+      "id": "gruvbox-material-light",
+      "label": "Gruvbox Material Light",
       "mode": "light",
       "version": 1,
-      "file": "themes/porcelain-blue.css"
+      "file": "themes/gruvbox-material-light.css"
     },
     {
-      "id": "matcha-paper",
-      "label": "Matcha Paper",
+      "id": "rose-pine-dawn",
+      "label": "Rosé Pine Dawn",
       "mode": "light",
       "version": 1,
-      "file": "themes/matcha-paper.css"
+      "file": "themes/rose-pine-dawn.css"
     },
     {
-      "id": "lavender-mist",
-      "label": "Lavender Mist",
+      "id": "kanagawa-lotus",
+      "label": "Kanagawa Lotus",
       "mode": "light",
       "version": 1,
-      "file": "themes/lavender-mist.css"
+      "file": "themes/kanagawa-lotus.css"
     },
     {
-      "id": "peach-sorbet",
-      "label": "Peach Sorbet",
+      "id": "ayu-light",
+      "label": "Ayu Light",
       "mode": "light",
       "version": 1,
-      "file": "themes/peach-sorbet.css"
+      "file": "themes/ayu-light.css"
+    },
+    {
+      "id": "everforest-light",
+      "label": "Everforest Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/everforest-light.css"
+    },
+    {
+      "id": "light-owl",
+      "label": "Light Owl",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/light-owl.css"
+    },
+    {
+      "id": "noctis-lux",
+      "label": "Noctis Lux",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/noctis-lux.css"
+    },
+    {
+      "id": "vitesse-light",
+      "label": "Vitesse Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/vitesse-light.css"
+    },
+    {
+      "id": "horizon-bright",
+      "label": "Horizon Bright",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/horizon-bright.css"
+    },
+    {
+      "id": "tokyo-night-light",
+      "label": "Tokyo Night Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/tokyo-night-light.css"
+    },
+    {
+      "id": "dayfox",
+      "label": "Dayfox",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/dayfox.css"
+    },
+    {
+      "id": "papercolor-light",
+      "label": "PaperColor Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/papercolor-light.css"
     }
   ]
 }

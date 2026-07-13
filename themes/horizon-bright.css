@@ -1,0 +1,38 @@
+/* @mode light */
+/* Palette: Horizon Bright — https://github.com/jolaleye/horizon-theme-vscode (MIT) */
+:root[data-acorn-theme="horizon-bright"] {
+  --color-bg: #fdf0ed;
+  --color-bg-elevated: #fadad1;
+  --color-bg-sidebar: #f8e5e0;
+  --color-input: #fadad1;
+  --color-input-hover: #f9cbbe;
+  --color-input-border: #e8b8ab;
+  --color-fg: #333333;
+  --color-fg-muted: #766a6b;
+  --color-border: #efc9bf;
+  --color-accent: #da103f;
+  --color-accent-hover: #af5427;
+  --color-on-accent: #fff8f6;
+  --color-danger: #f43e5c;
+  --color-warning: #af5427;
+  --color-terminal-bg: #fdf0ed;
+  --color-terminal-fg: #333333;
+  --color-selection: rgba(218, 16, 63, 0.16);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #333333;
+  --color-term-red: #e95678;
+  --color-term-green: #1d8991;
+  --color-term-yellow: #f77d26;
+  --color-term-blue: #26bbd9;
+  --color-term-magenta: #8a31b9;
+  --color-term-cyan: #1daeae;
+  --color-term-white: #fadad1;
+  --color-term-bright-black: #766a6b;
+  --color-term-bright-red: #ec6a88;
+  --color-term-bright-green: #1eb980;
+  --color-term-bright-yellow: #f6661e;
+  --color-term-bright-blue: #3fc4de;
+  --color-term-bright-magenta: #a14fc8;
+  --color-term-bright-cyan: #20bfc2;
+  --color-term-bright-white: #fff8f6;
+}

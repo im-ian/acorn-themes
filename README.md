@@ -22,6 +22,9 @@ without rebuilding Acorn.
 The four core themes remain bundled with Acorn and cannot be replaced by this
 catalog: `acorn-dark`, `acorn-pink`, `acorn-light`, and `acorn-light-pink`.
 
+Source palettes and licenses for adapted themes are recorded in
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+
 The preview site reuses Acorn's packaged app icon and the same Lucide icon
 paths used by Acorn's React interface so the mock workspace stays aligned with
 the product UI.

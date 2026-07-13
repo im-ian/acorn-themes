@@ -1,0 +1,37 @@
+/* Palette: Catppuccin Frappé — https://github.com/catppuccin/palette (MIT) */
+:root[data-acorn-theme="catppuccin-frappe"] {
+  --color-bg: #303446;
+  --color-bg-elevated: #414559;
+  --color-bg-sidebar: #292c3c;
+  --color-input: #414559;
+  --color-input-hover: #51576d;
+  --color-input-border: #626880;
+  --color-fg: #c6d0f5;
+  --color-fg-muted: #949cbb;
+  --color-border: #51576d;
+  --color-accent: #8caaee;
+  --color-accent-hover: #babbf1;
+  --color-on-accent: #232634;
+  --color-danger: #e78284;
+  --color-warning: #e5c890;
+  --color-terminal-bg: #303446;
+  --color-terminal-fg: #c6d0f5;
+  --color-selection: rgba(140, 170, 238, 0.34);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #51576d;
+  --color-term-red: #e78284;
+  --color-term-green: #a6d189;
+  --color-term-yellow: #e5c890;
+  --color-term-blue: #8caaee;
+  --color-term-magenta: #ca9ee6;
+  --color-term-cyan: #81c8be;
+  --color-term-white: #b5bfe2;
+  --color-term-bright-black: #626880;
+  --color-term-bright-red: #e78284;
+  --color-term-bright-green: #a6d189;
+  --color-term-bright-yellow: #e5c890;
+  --color-term-bright-blue: #8caaee;
+  --color-term-bright-magenta: #ca9ee6;
+  --color-term-bright-cyan: #81c8be;
+  --color-term-bright-white: #c6d0f5;
+}

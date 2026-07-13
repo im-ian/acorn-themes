@@ -1,0 +1,38 @@
+/* @mode light */
+/* Palette: Ayu Light — https://github.com/ayu-theme/vscode-ayu (MIT) */
+:root[data-acorn-theme="ayu-light"] {
+  --color-bg: #fcfcfc;
+  --color-bg-elevated: #fafafa;
+  --color-bg-sidebar: #f3f4f5;
+  --color-input: #f8f9fa;
+  --color-input-hover: #f0f1f2;
+  --color-input-border: #d9dce0;
+  --color-fg: #5c6166;
+  --color-fg-muted: #828e9f;
+  --color-border: #e1e4e8;
+  --color-accent: #f29718;
+  --color-accent-hover: #d97917;
+  --color-on-accent: #3b2d13;
+  --color-danger: #e65050;
+  --color-warning: #f29718;
+  --color-terminal-bg: #fcfcfc;
+  --color-terminal-fg: #5c6166;
+  --color-selection: rgba(3, 91, 214, 0.18);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #000000;
+  --color-term-red: #f06b6c;
+  --color-term-green: #6cbf43;
+  --color-term-yellow: #e7a100;
+  --color-term-blue: #21a1e2;
+  --color-term-magenta: #a176cb;
+  --color-term-cyan: #4abc96;
+  --color-term-white: #c7c7c7;
+  --color-term-bright-black: #686868;
+  --color-term-bright-red: #f07171;
+  --color-term-bright-green: #86b300;
+  --color-term-bright-yellow: #eba400;
+  --color-term-bright-blue: #22a4e6;
+  --color-term-bright-magenta: #a37acc;
+  --color-term-bright-cyan: #4cbf99;
+  --color-term-bright-white: #d1d1d1;
+}

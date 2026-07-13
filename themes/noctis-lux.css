@@ -1,0 +1,38 @@
+/* @mode light */
+/* Palette: Noctis Lux — https://github.com/liviuschera/noctis (MIT) */
+:root[data-acorn-theme="noctis-lux"] {
+  --color-bg: #fef8ec;
+  --color-bg-elevated: #f9f1e1;
+  --color-bg-sidebar: #f2edde;
+  --color-input: #f9f1e1;
+  --color-input-hover: #eee6d6;
+  --color-input-border: #d9d2c5;
+  --color-fg: #005661;
+  --color-fg-muted: #607b7b;
+  --color-border: #e3dccf;
+  --color-accent: #0095a8;
+  --color-accent-hover: #00bdd6;
+  --color-on-accent: #00232a;
+  --color-danger: #e34e1c;
+  --color-warning: #fa8900;
+  --color-terminal-bg: #fef8ec;
+  --color-terminal-fg: #005661;
+  --color-selection: rgba(173, 226, 235, 0.55);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #003b42;
+  --color-term-red: #e34e1c;
+  --color-term-green: #00b368;
+  --color-term-yellow: #f49725;
+  --color-term-blue: #0094f0;
+  --color-term-magenta: #ff5792;
+  --color-term-cyan: #00bdd6;
+  --color-term-white: #8ca6a6;
+  --color-term-bright-black: #004d57;
+  --color-term-bright-red: #ff4000;
+  --color-term-bright-green: #00d17a;
+  --color-term-bright-yellow: #ff8c00;
+  --color-term-bright-blue: #0fa3ff;
+  --color-term-bright-magenta: #ff6b9f;
+  --color-term-bright-cyan: #00cbe6;
+  --color-term-bright-white: #bbc3c4;
+}

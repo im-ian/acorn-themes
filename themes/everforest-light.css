@@ -1,0 +1,38 @@
+/* @mode light */
+/* Palette: Everforest Light Medium — https://github.com/sainnhe/everforest (MIT) */
+:root[data-acorn-theme="everforest-light"] {
+  --color-bg: #fdf6e3;
+  --color-bg-elevated: #f4f0d9;
+  --color-bg-sidebar: #efebd4;
+  --color-input: #f4f0d9;
+  --color-input-hover: #efeBD4;
+  --color-input-border: #bdc3af;
+  --color-fg: #5c6a72;
+  --color-fg-muted: #829181;
+  --color-border: #e0dcc7;
+  --color-accent: #3a94c5;
+  --color-accent-hover: #35a77c;
+  --color-on-accent: #0f2630;
+  --color-danger: #f85552;
+  --color-warning: #dfa000;
+  --color-terminal-bg: #fdf6e3;
+  --color-terminal-fg: #5c6a72;
+  --color-selection: rgba(58, 148, 197, 0.20);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #5c6a72;
+  --color-term-red: #f85552;
+  --color-term-green: #8da101;
+  --color-term-yellow: #dfa000;
+  --color-term-blue: #3a94c5;
+  --color-term-magenta: #df69ba;
+  --color-term-cyan: #35a77c;
+  --color-term-white: #e6e2cc;
+  --color-term-bright-black: #829181;
+  --color-term-bright-red: #f85552;
+  --color-term-bright-green: #8da101;
+  --color-term-bright-yellow: #dfa000;
+  --color-term-bright-blue: #3a94c5;
+  --color-term-bright-magenta: #df69ba;
+  --color-term-bright-cyan: #35a77c;
+  --color-term-bright-white: #fffbeF;
+}

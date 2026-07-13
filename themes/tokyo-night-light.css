@@ -1,0 +1,38 @@
+/* @mode light */
+/* Palette: Tokyo Night Light — https://github.com/tokyo-night/tokyo-night-vscode-theme (MIT) */
+:root[data-acorn-theme="tokyo-night-light"] {
+  --color-bg: #e6e7ed;
+  --color-bg-elevated: #dfe0e6;
+  --color-bg-sidebar: #d6d8df;
+  --color-input: #e6e7ed;
+  --color-input-hover: #d9dbe2;
+  --color-input-border: #c1c2c7;
+  --color-fg: #343b59;
+  --color-fg-muted: #707280;
+  --color-border: #c9cbd2;
+  --color-accent: #2959aa;
+  --color-accent-hover: #006c86;
+  --color-on-accent: #f7f7fa;
+  --color-danger: #8c4351;
+  --color-warning: #8f5e15;
+  --color-terminal-bg: #e6e7ed;
+  --color-terminal-fg: #343b59;
+  --color-selection: rgba(41, 89, 170, 0.18);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #343b58;
+  --color-term-red: #8c4351;
+  --color-term-green: #33635c;
+  --color-term-yellow: #8f5e15;
+  --color-term-blue: #2959aa;
+  --color-term-magenta: #7b43ba;
+  --color-term-cyan: #006c86;
+  --color-term-white: #d6d8df;
+  --color-term-bright-black: #707280;
+  --color-term-bright-red: #8c4351;
+  --color-term-bright-green: #33635c;
+  --color-term-bright-yellow: #8f5e15;
+  --color-term-bright-blue: #2959aa;
+  --color-term-bright-magenta: #7b43ba;
+  --color-term-bright-cyan: #006c86;
+  --color-term-bright-white: #f7f7fa;
+}

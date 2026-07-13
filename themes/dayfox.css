@@ -1,0 +1,38 @@
+/* @mode light */
+/* Palette: Dayfox — https://github.com/EdenEast/nightfox.nvim (MIT) */
+:root[data-acorn-theme="dayfox"] {
+  --color-bg: #f6f2ee;
+  --color-bg-elevated: #e4dcd4;
+  --color-bg-sidebar: #eee7e0;
+  --color-input: #e7d2be;
+  --color-input-hover: #dec5ad;
+  --color-input-border: #aab0ad;
+  --color-fg: #3d2b5a;
+  --color-fg-muted: #837a72;
+  --color-border: #d3c7bb;
+  --color-accent: #2848a9;
+  --color-accent-hover: #287980;
+  --color-on-accent: #f6f2ee;
+  --color-danger: #a5222f;
+  --color-warning: #ac5402;
+  --color-terminal-bg: #f6f2ee;
+  --color-terminal-fg: #3d2b5a;
+  --color-selection: #e7d2be;
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #352c24;
+  --color-term-red: #a5222f;
+  --color-term-green: #396847;
+  --color-term-yellow: #ac5402;
+  --color-term-blue: #2848a9;
+  --color-term-magenta: #6e33ce;
+  --color-term-cyan: #287980;
+  --color-term-white: #f2e9e1;
+  --color-term-bright-black: #837a72;
+  --color-term-bright-red: #be3e4a;
+  --color-term-bright-green: #527d5e;
+  --color-term-bright-yellow: #c16c20;
+  --color-term-bright-blue: #4663bb;
+  --color-term-bright-magenta: #8651d7;
+  --color-term-bright-cyan: #438e94;
+  --color-term-bright-white: #ffffff;
+}

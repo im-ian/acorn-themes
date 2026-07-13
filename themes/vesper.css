@@ -1,0 +1,37 @@
+/* Palette: Vesper — https://github.com/raunofreiberg/vesper (MIT) */
+:root[data-acorn-theme="vesper"] {
+  --color-bg: #101010;
+  --color-bg-elevated: #161616;
+  --color-bg-sidebar: #0b0b0b;
+  --color-input: #1c1c1c;
+  --color-input-hover: #232323;
+  --color-input-border: #343434;
+  --color-fg: #ffffff;
+  --color-fg-muted: #a0a0a0;
+  --color-border: #282828;
+  --color-accent: #99ffe4;
+  --color-accent-hover: #ffc799;
+  --color-on-accent: #101010;
+  --color-danger: #ff8080;
+  --color-warning: #ffc799;
+  --color-terminal-bg: #101010;
+  --color-terminal-fg: #ffffff;
+  --color-selection: rgba(255, 255, 255, 0.15);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #101010;
+  --color-term-red: #ff8080;
+  --color-term-green: #99ffe4;
+  --color-term-yellow: #ffc799;
+  --color-term-blue: #8eb6f5;
+  --color-term-magenta: #d5a6ff;
+  --color-term-cyan: #99ffe4;
+  --color-term-white: #e8e8e8;
+  --color-term-bright-black: #707070;
+  --color-term-bright-red: #ff9a9a;
+  --color-term-bright-green: #b4ffeb;
+  --color-term-bright-yellow: #ffddbd;
+  --color-term-bright-blue: #aecbfa;
+  --color-term-bright-magenta: #e4c4ff;
+  --color-term-bright-cyan: #bffff0;
+  --color-term-bright-white: #ffffff;
+}

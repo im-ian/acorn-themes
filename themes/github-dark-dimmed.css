@@ -1,0 +1,37 @@
+/* Palette: GitHub Dark Dimmed — https://github.com/primer/github-vscode-theme (MIT) */
+:root[data-acorn-theme="github-dark-dimmed"] {
+  --color-bg: #22272e;
+  --color-bg-elevated: #2d333b;
+  --color-bg-sidebar: #1c2128;
+  --color-input: #2d333b;
+  --color-input-hover: #373e47;
+  --color-input-border: #545d68;
+  --color-fg: #adbac7;
+  --color-fg-muted: #768390;
+  --color-border: #444c56;
+  --color-accent: #539bf5;
+  --color-accent-hover: #6cb6ff;
+  --color-on-accent: #1c2128;
+  --color-danger: #f47067;
+  --color-warning: #daaa3f;
+  --color-terminal-bg: #22272e;
+  --color-terminal-fg: #adbac7;
+  --color-selection: rgba(83, 155, 245, 0.28);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #545d68;
+  --color-term-red: #f47067;
+  --color-term-green: #57ab5a;
+  --color-term-yellow: #c69026;
+  --color-term-blue: #539bf5;
+  --color-term-magenta: #b083f0;
+  --color-term-cyan: #39c5cf;
+  --color-term-white: #909dab;
+  --color-term-bright-black: #636e7b;
+  --color-term-bright-red: #ff938a;
+  --color-term-bright-green: #6bc46d;
+  --color-term-bright-yellow: #daaa3f;
+  --color-term-bright-blue: #6cb6ff;
+  --color-term-bright-magenta: #dcbdfb;
+  --color-term-bright-cyan: #56d4dd;
+  --color-term-bright-white: #cdd9e5;
+}

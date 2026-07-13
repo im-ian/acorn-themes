@@ -1,0 +1,37 @@
+/* Palette: Night Owl — https://github.com/sdras/night-owl-vscode-theme (MIT) */
+:root[data-acorn-theme="night-owl"] {
+  --color-bg: #011627;
+  --color-bg-elevated: #021f33;
+  --color-bg-sidebar: #001122;
+  --color-input: #0b253a;
+  --color-input-hover: #122d42;
+  --color-input-border: #1d3b53;
+  --color-fg: #d6deeb;
+  --color-fg-muted: #637777;
+  --color-border: #102a44;
+  --color-accent: #82aaff;
+  --color-accent-hover: #addb67;
+  --color-on-accent: #011627;
+  --color-danger: #ef5350;
+  --color-warning: #ffeb95;
+  --color-terminal-bg: #011627;
+  --color-terminal-fg: #d6deeb;
+  --color-selection: #1d3b53;
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #011627;
+  --color-term-red: #ef5350;
+  --color-term-green: #22da6e;
+  --color-term-yellow: #c5e478;
+  --color-term-blue: #82aaff;
+  --color-term-magenta: #c792ea;
+  --color-term-cyan: #21c7a8;
+  --color-term-white: #ffffff;
+  --color-term-bright-black: #575656;
+  --color-term-bright-red: #ef5350;
+  --color-term-bright-green: #22da6e;
+  --color-term-bright-yellow: #ffeb95;
+  --color-term-bright-blue: #82aaff;
+  --color-term-bright-magenta: #c792ea;
+  --color-term-bright-cyan: #7fdbca;
+  --color-term-bright-white: #ffffff;
+}

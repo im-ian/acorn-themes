@@ -1,0 +1,38 @@
+/* @mode light */
+/* Palette: PaperColor Light — https://github.com/NLKNguyen/papercolor-theme (MIT) */
+:root[data-acorn-theme="papercolor-light"] {
+  --color-bg: #eeeeee;
+  --color-bg-elevated: #e4e4e4;
+  --color-bg-sidebar: #dedede;
+  --color-input: #e4e4e4;
+  --color-input-hover: #d7d7d7;
+  --color-input-border: #bcbcbc;
+  --color-fg: #444444;
+  --color-fg-muted: #878787;
+  --color-border: #d0d0d0;
+  --color-accent: #005f87;
+  --color-accent-hover: #0087af;
+  --color-on-accent: #eeeeee;
+  --color-danger: #af0000;
+  --color-warning: #af5f00;
+  --color-terminal-bg: #eeeeee;
+  --color-terminal-fg: #444444;
+  --color-selection: rgba(0, 135, 175, 0.24);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #444444;
+  --color-term-red: #af0000;
+  --color-term-green: #008700;
+  --color-term-yellow: #5f8700;
+  --color-term-blue: #0087af;
+  --color-term-magenta: #878787;
+  --color-term-cyan: #005f87;
+  --color-term-white: #eeeeee;
+  --color-term-bright-black: #bcbcbc;
+  --color-term-bright-red: #d70000;
+  --color-term-bright-green: #d70087;
+  --color-term-bright-yellow: #8700af;
+  --color-term-bright-blue: #d75f00;
+  --color-term-bright-magenta: #d75f00;
+  --color-term-bright-cyan: #005faf;
+  --color-term-bright-white: #005f87;
+}

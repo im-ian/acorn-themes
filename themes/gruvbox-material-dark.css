@@ -1,0 +1,37 @@
+/* Palette: Gruvbox Material — https://github.com/sainnhe/gruvbox-material (MIT) */
+:root[data-acorn-theme="gruvbox-material-dark"] {
+  --color-bg: #282828;
+  --color-bg-elevated: #32302f;
+  --color-bg-sidebar: #1b1b1b;
+  --color-input: #3a3735;
+  --color-input-hover: #45403d;
+  --color-input-border: #5a524c;
+  --color-fg: #ddc7a1;
+  --color-fg-muted: #928374;
+  --color-border: #504945;
+  --color-accent: #7daea3;
+  --color-accent-hover: #89b482;
+  --color-on-accent: #1b1b1b;
+  --color-danger: #ea6962;
+  --color-warning: #d8a657;
+  --color-terminal-bg: #282828;
+  --color-terminal-fg: #d4be98;
+  --color-selection: rgba(125, 174, 163, 0.28);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #282828;
+  --color-term-red: #ea6962;
+  --color-term-green: #a9b665;
+  --color-term-yellow: #d8a657;
+  --color-term-blue: #7daea3;
+  --color-term-magenta: #d3869b;
+  --color-term-cyan: #89b482;
+  --color-term-white: #d4be98;
+  --color-term-bright-black: #7c6f64;
+  --color-term-bright-red: #ea6962;
+  --color-term-bright-green: #a9b665;
+  --color-term-bright-yellow: #d8a657;
+  --color-term-bright-blue: #7daea3;
+  --color-term-bright-magenta: #d3869b;
+  --color-term-bright-cyan: #89b482;
+  --color-term-bright-white: #ddc7a1;
+}

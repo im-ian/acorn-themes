@@ -1,0 +1,37 @@
+/* Palette: Horizon — https://github.com/jolaleye/horizon-theme-vscode (MIT) */
+:root[data-acorn-theme="horizon"] {
+  --color-bg: #1c1e26;
+  --color-bg-elevated: #232530;
+  --color-bg-sidebar: #16161c;
+  --color-input: #2e303e;
+  --color-input-hover: #363849;
+  --color-input-border: #44465a;
+  --color-fg: #d5d8da;
+  --color-fg-muted: #6c6f93;
+  --color-border: #2e303e;
+  --color-accent: #e95378;
+  --color-accent-hover: #fab795;
+  --color-on-accent: #1c1e26;
+  --color-danger: #f43e5c;
+  --color-warning: #fab795;
+  --color-terminal-bg: #1c1e26;
+  --color-terminal-fg: #d5d8da;
+  --color-selection: rgba(108, 111, 147, 0.42);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #1c1e26;
+  --color-term-red: #e95678;
+  --color-term-green: #29d398;
+  --color-term-yellow: #fab795;
+  --color-term-blue: #26bbd9;
+  --color-term-magenta: #ee64ac;
+  --color-term-cyan: #59e1e3;
+  --color-term-white: #d5d8da;
+  --color-term-bright-black: #6c6f93;
+  --color-term-bright-red: #ec6a88;
+  --color-term-bright-green: #3fdaa4;
+  --color-term-bright-yellow: #fbc3a7;
+  --color-term-bright-blue: #3fc4de;
+  --color-term-bright-magenta: #f075b5;
+  --color-term-bright-cyan: #6be4e6;
+  --color-term-bright-white: #ffffff;
+}

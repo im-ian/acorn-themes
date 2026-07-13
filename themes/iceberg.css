@@ -1,0 +1,37 @@
+/* Palette: Iceberg — https://github.com/cocopon/iceberg.vim (MIT) */
+:root[data-acorn-theme="iceberg"] {
+  --color-bg: #161821;
+  --color-bg-elevated: #1e2132;
+  --color-bg-sidebar: #101218;
+  --color-input: #1e2132;
+  --color-input-hover: #272a3a;
+  --color-input-border: #3d425b;
+  --color-fg: #c6c8d1;
+  --color-fg-muted: #6b7089;
+  --color-border: #2e313f;
+  --color-accent: #84a0c6;
+  --color-accent-hover: #89b8c2;
+  --color-on-accent: #161821;
+  --color-danger: #e27878;
+  --color-warning: #e2a478;
+  --color-terminal-bg: #161821;
+  --color-terminal-fg: #c6c8d1;
+  --color-selection: rgba(132, 160, 198, 0.28);
+  --color-term-selection: var(--color-selection);
+  --color-term-black: #1e2132;
+  --color-term-red: #e27878;
+  --color-term-green: #b4be82;
+  --color-term-yellow: #e2a478;
+  --color-term-blue: #84a0c6;
+  --color-term-magenta: #a093c7;
+  --color-term-cyan: #89b8c2;
+  --color-term-white: #c6c8d1;
+  --color-term-bright-black: #6b7089;
+  --color-term-bright-red: #e98989;
+  --color-term-bright-green: #c0ca8e;
+  --color-term-bright-yellow: #e9b189;
+  --color-term-bright-blue: #91acd1;
+  --color-term-bright-magenta: #ada0d3;
+  --color-term-bright-cyan: #95c4cd;
+  --color-term-bright-white: #d2d4de;
+}
