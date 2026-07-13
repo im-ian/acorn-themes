@@ -12,8 +12,6 @@ const shareButton = document.querySelector("#share-theme");
 const paletteElement = document.querySelector("#palette-strip");
 const toastElement = document.querySelector("#toast");
 const inspectorNameElement = document.querySelector("#inspector-active-name");
-const refreshPreviewButton = document.querySelector("#refresh-preview");
-const statusThemeCountElement = document.querySelector("#status-theme-count");
 const filterButtons = [...document.querySelectorAll("[data-mode]")];
 
 let themes = [];
@@ -68,11 +66,6 @@ function renderList() {
     .map((theme) => optionMarkup(theme, themes.indexOf(theme)))
     .join("");
   emptyElement.hidden = filteredThemes.length > 0;
-  requestAnimationFrame(() => {
-    listElement
-      .querySelector('[aria-selected="true"]')
-      ?.scrollIntoView({ block: "nearest" });
-  });
 }
 
 function updatePalette() {
@@ -108,8 +101,8 @@ async function activateTheme(theme, updateHistory = true) {
     nameElement.textContent = theme.label;
     inspectorNameElement.textContent = theme.label;
     indexElement.textContent = `${String(index + 1).padStart(2, "0")} / ${String(themes.length).padStart(2, "0")}`;
-    modeElement.textContent = theme.mode.toUpperCase();
-    versionElement.textContent = `VERSION ${theme.version}`;
+    modeElement.textContent = `${theme.mode.toUpperCase()} INTERFACE`;
+    versionElement.textContent = `CATALOG VERSION ${theme.version}`;
     fileElement.textContent = `${theme.id}.css`;
     cssLink.href = `./${theme.file}`;
     cssLink.download = `${theme.id}.css`;
@@ -154,10 +147,6 @@ shareButton.addEventListener("click", async () => {
   }
 });
 
-refreshPreviewButton.addEventListener("click", () => {
-  void activateTheme(activeTheme, false);
-});
-
 window.addEventListener("keydown", (event) => {
   if (event.key === "/" && document.activeElement !== searchElement) {
     event.preventDefault();
@@ -185,7 +174,6 @@ async function initialize() {
     const manifest = await response.json();
     themes = manifest.themes;
     countElement.textContent = `${themes.length} PALETTES`;
-    statusThemeCountElement.textContent = String(themes.length);
     document.querySelector("#manifest-theme-count").textContent = String(
       themes.length,
     );
