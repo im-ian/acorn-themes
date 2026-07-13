@@ -171,6 +171,9 @@ async function initialize() {
     const manifest = await response.json();
     themes = manifest.themes;
     countElement.textContent = `${themes.length} PALETTES`;
+    document.querySelector("#manifest-theme-count").textContent = String(
+      themes.length,
+    );
     const requestedId = new URLSearchParams(window.location.search).get("theme");
     const initial = themes.find((theme) => theme.id === requestedId) ?? themes[0];
     renderList();

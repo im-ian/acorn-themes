@@ -1,0 +1,47 @@
+:root[data-acorn-theme="blueprint"] {
+  --color-bg: #071b2e;
+  --color-bg-elevated: #0d2943;
+  --color-bg-sidebar: #04111e;
+  --color-input: #123554;
+  --color-input-hover: #174264;
+  --color-input-border: #2d668f;
+  --color-fg: #e4f4ff;
+  --color-fg-muted: #8eb4ce;
+  --color-border: #215170;
+  --color-accent: #56c8ff;
+  --color-accent-hover: #8edcff;
+  --color-on-accent: #031725;
+  --color-danger: #ff7587;
+  --color-warning: #ffd166;
+  --color-terminal-bg: #03101c;
+  --color-terminal-fg: #caeaff;
+  --color-selection: rgba(86, 200, 255, 0.28);
+  --color-term-selection: var(--color-selection);
+  --color-term-scrollbar: rgba(86, 200, 255, 0.11);
+  --color-term-scrollbar-hover: rgba(86, 200, 255, 0.22);
+  --color-term-scrollbar-active: rgba(86, 200, 255, 0.34);
+  --color-term-black: #071b2e;
+  --color-term-red: #ff7587;
+  --color-term-green: #73e0b1;
+  --color-term-yellow: #ffd166;
+  --color-term-blue: #56c8ff;
+  --color-term-magenta: #c59cff;
+  --color-term-cyan: #5eead4;
+  --color-term-white: #caeaff;
+  --color-term-bright-black: #648aa4;
+  --color-term-bright-red: #ffa0ad;
+  --color-term-bright-green: #a2edcc;
+  --color-term-bright-yellow: #ffe299;
+  --color-term-bright-blue: #8edcff;
+  --color-term-bright-magenta: #dbc1ff;
+  --color-term-bright-cyan: #99f6e4;
+  --color-term-bright-white: #f3fbff;
+  --acorn-pane-radius: 0.15rem;
+}
+
+:root[data-acorn-theme="blueprint"] .acorn-app-shell {
+  background-image:
+    linear-gradient(rgba(86, 200, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(86, 200, 255, 0.035) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

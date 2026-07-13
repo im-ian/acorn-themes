@@ -135,6 +135,48 @@
       "file": "themes/ayu-dark.css"
     },
     {
+      "id": "midnight-iris",
+      "label": "Midnight Iris",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/midnight-iris.css"
+    },
+    {
+      "id": "ember-forge",
+      "label": "Ember Forge",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/ember-forge.css"
+    },
+    {
+      "id": "sea-glass",
+      "label": "Sea Glass",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/sea-glass.css"
+    },
+    {
+      "id": "sakura-night",
+      "label": "Sakura Night",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/sakura-night.css"
+    },
+    {
+      "id": "graphite-gold",
+      "label": "Graphite Gold",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/graphite-gold.css"
+    },
+    {
+      "id": "blueprint",
+      "label": "Blueprint",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/blueprint.css"
+    },
+    {
       "id": "note",
       "label": "Note",
       "mode": "light",
@@ -196,6 +238,34 @@
       "mode": "light",
       "version": 1,
       "file": "themes/gruvbox-light.css"
+    },
+    {
+      "id": "porcelain-blue",
+      "label": "Porcelain Blue",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/porcelain-blue.css"
+    },
+    {
+      "id": "matcha-paper",
+      "label": "Matcha Paper",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/matcha-paper.css"
+    },
+    {
+      "id": "lavender-mist",
+      "label": "Lavender Mist",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/lavender-mist.css"
+    },
+    {
+      "id": "peach-sorbet",
+      "label": "Peach Sorbet",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/peach-sorbet.css"
     }
   ]
 }
