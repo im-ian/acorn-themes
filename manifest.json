@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "themes": [
+    {
+      "id": "retro-terminal",
+      "label": "Retro Terminal",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/retro-terminal.css"
+    },
+    {
+      "id": "amber-terminal",
+      "label": "Amber Terminal",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/amber-terminal.css"
+    },
+    {
+      "id": "oled-mono",
+      "label": "OLED Mono",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/oled-mono.css"
+    },
+    {
+      "id": "cobalt-circuit",
+      "label": "Cobalt Circuit",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/cobalt-circuit.css"
+    },
+    {
+      "id": "one-dark-pro",
+      "label": "One Dark Pro",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/one-dark-pro.css"
+    },
+    {
+      "id": "monokai-pro",
+      "label": "Monokai Pro",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/monokai-pro.css"
+    },
+    {
+      "id": "kanagawa-wave",
+      "label": "Kanagawa Wave",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/kanagawa-wave.css"
+    },
+    {
+      "id": "everforest-dark",
+      "label": "Everforest Dark",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/everforest-dark.css"
+    },
+    {
+      "id": "github-dark",
+      "label": "GitHub Dark",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/github-dark.css"
+    },
+    {
+      "id": "solarized-dark",
+      "label": "Solarized Dark",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/solarized-dark.css"
+    },
+    {
+      "id": "flexoki-dark",
+      "label": "Flexoki Dark",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/flexoki-dark.css"
+    },
+    {
+      "id": "high-contrast-dark",
+      "label": "High Contrast Dark",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/high-contrast-dark.css"
+    },
+    {
+      "id": "tokyo-night",
+      "label": "Tokyo Night",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/tokyo-night.css"
+    },
+    {
+      "id": "dracula",
+      "label": "Dracula",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/dracula.css"
+    },
+    {
+      "id": "catppuccin-mocha",
+      "label": "Catppuccin Mocha",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/catppuccin-mocha.css"
+    },
+    {
+      "id": "gruvbox-dark",
+      "label": "Gruvbox Dark",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/gruvbox-dark.css"
+    },
+    {
+      "id": "nord",
+      "label": "Nord",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/nord.css"
+    },
+    {
+      "id": "rose-pine",
+      "label": "Rose Pine",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/rose-pine.css"
+    },
+    {
+      "id": "ayu-dark",
+      "label": "Ayu Dark",
+      "mode": "dark",
+      "version": 1,
+      "file": "themes/ayu-dark.css"
+    },
+    {
+      "id": "note",
+      "label": "Note",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/note.css"
+    },
+    {
+      "id": "paper-ledger",
+      "label": "Paper Ledger",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/paper-ledger.css"
+    },
+    {
+      "id": "github-light",
+      "label": "GitHub Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/github-light.css"
+    },
+    {
+      "id": "high-contrast-light",
+      "label": "High Contrast Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/high-contrast-light.css"
+    },
+    {
+      "id": "flexoki-light",
+      "label": "Flexoki Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/flexoki-light.css"
+    },
+    {
+      "id": "solarized-light",
+      "label": "Solarized Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/solarized-light.css"
+    },
+    {
+      "id": "catppuccin-latte",
+      "label": "Catppuccin Latte",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/catppuccin-latte.css"
+    },
+    {
+      "id": "one-light",
+      "label": "One Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/one-light.css"
+    },
+    {
+      "id": "gruvbox-light",
+      "label": "Gruvbox Light",
+      "mode": "light",
+      "version": 1,
+      "file": "themes/gruvbox-light.css"
+    }
+  ]
+}
