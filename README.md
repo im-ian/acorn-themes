@@ -1,5 +1,7 @@
 # Acorn Themes
 
+[![Deploy theme previews](https://github.com/im-ian/acorn-themes/actions/workflows/pages.yml/badge.svg)](https://github.com/im-ian/acorn-themes/actions/workflows/pages.yml)
+
 Downloadable themes for [Acorn](https://github.com/im-ian/acorn).
 
 [Browse the live theme previews](https://im-ian.github.io/acorn-themes/)
