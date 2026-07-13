@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Browse and preview downloadable themes for the Acorn terminal workspace."
+      content="Browse downloadable themes inside a live Acorn workspace."
     />
-    <title>Acorn Theme Archive</title>
+    <title>Acorn Theme Library</title>
     <link rel="icon" href="./assets/acorn-icon.png" type="image/png" />
     <link rel="stylesheet" href="./site.css" />
   </head>
   <body>
     <svg class="icon-sprite" aria-hidden="true">
-      <symbol id="icon-command" viewBox="0 0 24 24">
-        <path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3" />
+      <symbol id="icon-bot" viewBox="0 0 24 24">
+        <path d="M12 8V4H8" /><rect width="16" height="12" x="4" y="8" rx="2" /><path d="M2 14h2" /><path d="M20 14h2" /><path d="M15 13v2" /><path d="M9 13v2" />
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m20 6-11 11-5-5" />
+      </symbol>
+      <symbol id="icon-code" viewBox="0 0 24 24">
+        <path d="m16 18 6-6-6-6" /><path d="m8 6-6 6 6 6" /><path d="m14.5 4-5 16" />
+      </symbol>
+      <symbol id="icon-copy" viewBox="0 0 24 24">
+        <rect width="14" height="14" x="8" y="8" rx="2" /><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
       </symbol>
       <symbol id="icon-download" viewBox="0 0 24 24">
         <path d="M12 15V3" /><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><path d="m7 10 5 5 5-5" />
@@ -31,195 +40,267 @@
       <symbol id="icon-git-branch" viewBox="0 0 24 24">
         <path d="M15 6a9 9 0 0 0-9 9V3" /><circle cx="18" cy="6" r="3" /><circle cx="6" cy="18" r="3" />
       </symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" /><path d="M2 12h20" /><path d="M12 2a15.3 15.3 0 0 1 0 20" /><path d="M12 2a15.3 15.3 0 0 0 0 20" />
+      </symbol>
+      <symbol id="icon-history" viewBox="0 0 24 24">
+        <path d="M3 12a9 9 0 1 0 3-6.7L3 8" /><path d="M3 3v5h5" /><path d="M12 7v5l4 2" />
+      </symbol>
+      <symbol id="icon-library" viewBox="0 0 24 24">
+        <path d="m16 6 4 14" /><path d="M12 6v14" /><path d="M8 8v12" /><path d="M4 4v16" />
+      </symbol>
       <symbol id="icon-panel-top" viewBox="0 0 24 24">
         <rect width="18" height="18" x="3" y="3" rx="2" /><path d="M3 9h18" />
       </symbol>
+      <symbol id="icon-palette" viewBox="0 0 24 24">
+        <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" /><circle cx="17.5" cy="10.5" r=".5" fill="currentColor" /><circle cx="8.5" cy="7.5" r=".5" fill="currentColor" /><circle cx="6.5" cy="12.5" r=".5" fill="currentColor" /><path d="M12 22a10 10 0 1 0-10-10 10 10 0 0 0 10 10Z" /><path d="M12 22a3 3 0 0 0 3-3c0-.8-.4-1.5-1-2-.6-.5-1-1.2-1-2a3 3 0 0 1 3-3h4.7" />
+      </symbol>
       <symbol id="icon-plus" viewBox="0 0 24 24">
         <path d="M5 12h14" /><path d="M12 5v14" />
+      </symbol>
+      <symbol id="icon-refresh" viewBox="0 0 24 24">
+        <path d="M20 6v6h-6" /><path d="M4 18v-6h6" /><path d="M18.5 9a7 7 0 0 0-11.8-3L4 9" /><path d="M5.5 15a7 7 0 0 0 11.8 3L20 15" />
       </symbol>
       <symbol id="icon-search" viewBox="0 0 24 24">
         <path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" />
       </symbol>
       <symbol id="icon-settings" viewBox="0 0 24 24">
-        <path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" /><circle cx="12" cy="12" r="3" />
+        <path d="M9.67 4.14a2.34 2.34 0 0 1 4.66 0 2.34 2.34 0 0 0 3.32 1.91 2.34 2.34 0 0 1 2.33 4.03 2.34 2.34 0 0 0 0 3.83 2.34 2.34 0 0 1-2.33 4.04 2.34 2.34 0 0 0-3.32 1.91 2.34 2.34 0 0 1-4.66 0 2.34 2.34 0 0 0-3.32-1.91 2.34 2.34 0 0 1-2.33-4.04 2.34 2.34 0 0 0 0-3.83 2.34 2.34 0 0 1 2.33-4.03 2.34 2.34 0 0 0 3.32-1.91" /><circle cx="12" cy="12" r="3" />
+      </symbol>
+      <symbol id="icon-terminal" viewBox="0 0 24 24">
+        <path d="m4 17 6-6-6-6" /><path d="M12 19h8" />
       </symbol>
       <symbol id="icon-x" viewBox="0 0 24 24">
         <path d="M18 6 6 18" /><path d="m6 6 12 12" />
       </symbol>
     </svg>
-    <div class="noise" aria-hidden="true"></div>
-    <main class="archive-shell">
-      <header class="masthead">
-        <a class="wordmark" href="./" aria-label="Acorn Theme Archive home">
-          <img class="wordmark-mark" src="./assets/acorn-icon.png" alt="" />
-          <span>
-            <strong>ACORN</strong>
-            <small>THEME ARCHIVE</small>
-          </span>
-        </a>
 
-        <div class="masthead-meta">
-          <span><i class="status-dot" aria-hidden="true"></i> LIVE CATALOG</span>
-          <span id="theme-count">— PALETTES</span>
-          <a href="https://github.com/im-ian/acorn-themes">
-            GITHUB <svg class="icon"><use href="#icon-external-link" /></svg>
-          </a>
+    <main id="theme-preview-root" class="acorn-window">
+      <header class="window-titlebar">
+        <div class="window-identity">
+          <img src="./assets/acorn-icon.png" alt="" />
+          <strong>Acorn</strong>
         </div>
+        <div class="window-project">
+          <span>acorn-themes</span>
+          <small>/</small>
+          <span>theme library</span>
+        </div>
+        <a
+          class="window-branch"
+          href="https://github.com/im-ian/acorn-themes"
+          aria-label="Open acorn-themes on GitHub"
+        >
+          <svg class="icon"><use href="#icon-git-branch" /></svg>
+          main
+          <svg class="icon external-icon"><use href="#icon-external-link" /></svg>
+        </a>
       </header>
 
-      <section class="intro" aria-labelledby="page-title">
-        <div>
-          <p class="eyebrow">A field guide to the Acorn interface</p>
-          <h1 id="page-title">Find your<br /><em>working color.</em></h1>
-        </div>
-        <div class="intro-copy">
-          <p>
-            Every palette is rendered against a living Acorn workspace—not a
-            decorative swatch. Choose a theme, inspect the terminal, and
-            download it from the app when it fits.
-          </p>
-          <div class="key-guide" aria-label="Keyboard shortcuts">
-            <span><kbd>↑</kbd><kbd>↓</kbd> browse</span>
-            <span><kbd>/</kbd> search</span>
+      <div class="workspace-grid">
+        <aside class="catalog-sidebar" aria-label="Theme catalog">
+          <div class="sidebar-heading">
+            <div>
+              <svg class="icon"><use href="#icon-library" /></svg>
+              <span>Theme library</span>
+            </div>
+            <button id="share-theme" class="icon-button" type="button" aria-label="Copy theme link">
+              <svg class="icon"><use href="#icon-copy" /></svg>
+            </button>
           </div>
-        </div>
-      </section>
 
-      <section class="catalog-layout">
-        <aside class="catalog-panel" aria-label="Theme catalog">
           <div class="catalog-tools">
             <label class="search-field">
-              <span class="sr-only">Search themes</span>
               <svg class="icon" aria-hidden="true"><use href="#icon-search" /></svg>
+              <span class="sr-only">Search themes</span>
               <input
                 id="theme-search"
                 type="search"
-                placeholder="Search the archive"
+                placeholder="Search themes"
                 autocomplete="off"
               />
               <kbd>/</kbd>
             </label>
             <div class="filter-row" aria-label="Filter themes">
-              <button class="filter-button is-active" data-mode="all" type="button">
-                All
-              </button>
-              <button class="filter-button" data-mode="dark" type="button">
-                Dark
-              </button>
-              <button class="filter-button" data-mode="light" type="button">
-                Light
-              </button>
+              <button class="filter-button is-active" data-mode="all" type="button">All</button>
+              <button class="filter-button" data-mode="dark" type="button">Dark</button>
+              <button class="filter-button" data-mode="light" type="button">Light</button>
             </div>
+          </div>
+
+          <div class="catalog-section-label">
+            <span>Available themes</span>
+            <span id="theme-count">—</span>
           </div>
           <div id="theme-list" class="theme-list" role="listbox"></div>
-          <p id="empty-state" class="empty-state" hidden>No matching palettes.</p>
+          <p id="empty-state" class="empty-state" hidden>No matching themes.</p>
+
+          <div class="sidebar-footer">
+            <span><i class="online-dot"></i> Catalog online</span>
+            <a href="https://github.com/im-ian/acorn-themes">
+              GitHub <svg class="icon"><use href="#icon-external-link" /></svg>
+            </a>
+          </div>
         </aside>
 
-        <article class="preview-column" aria-live="polite">
-          <div class="preview-heading">
-            <div>
-              <span id="active-index" class="preview-index">01 / —</span>
-              <h2 id="active-name">Loading archive…</h2>
+        <section class="main-pane" aria-live="polite">
+          <div class="pane-tabs">
+            <div class="pane-tab is-active">
+              <svg class="icon"><use href="#icon-terminal" /></svg>
+              <span>Theme preview</span>
+              <svg class="icon tab-close"><use href="#icon-x" /></svg>
             </div>
-            <div class="preview-actions">
-              <button id="share-theme" class="text-button" type="button">
-                Copy link
-              </button>
-              <a id="css-link" class="download-link" href="#" download>
-                CSS <svg class="icon"><use href="#icon-download" /></svg>
-              </a>
+            <div class="pane-tab">
+              <svg class="icon"><use href="#icon-code" /></svg>
+              <span>README.md</span>
+              <svg class="icon tab-close"><use href="#icon-x" /></svg>
             </div>
+            <button class="new-tab" type="button" aria-label="New tab">
+              <svg class="icon"><use href="#icon-plus" /></svg>
+            </button>
+            <span class="tabs-spacer"></span>
+            <button class="icon-button tab-action" type="button" aria-label="Panel layout">
+              <svg class="icon"><use href="#icon-panel-top" /></svg>
+            </button>
+            <button class="icon-button tab-action" type="button" aria-label="More actions">
+              <svg class="icon"><use href="#icon-ellipsis" /></svg>
+            </button>
           </div>
 
-          <div id="theme-preview-root" class="acorn-frame">
-            <div class="frame-titlebar">
-              <div class="window-controls" aria-hidden="true">
-                <i></i><i></i><i></i>
+          <div class="preview-header">
+            <div class="preview-title">
+              <span class="theme-glyph"><svg class="icon"><use href="#icon-palette" /></svg></span>
+              <div>
+                <span id="active-index" class="preview-index">01 / —</span>
+                <h1 id="active-name">Loading themes…</h1>
               </div>
-              <span>acorn / studio</span>
-              <span class="frame-branch"><svg class="icon"><use href="#icon-git-branch" /></svg> main</span>
             </div>
-
-            <div class="acorn-workspace acorn-app-shell">
-              <aside class="workspace-sidebar">
-                <div class="workspace-brand">
-                  <b><img src="./assets/acorn-icon.png" alt="" /> Acorn</b>
-                  <span>⌘K</span>
-                </div>
-                <p class="sidebar-label">WORKSPACES</p>
-                <button class="workspace-row is-current" type="button">
-                  <svg class="branch-glyph icon" aria-hidden="true"><use href="#icon-folder" /></svg>
-                  <span><b>studio</b><small>3 sessions</small></span>
-                  <i></i>
-                </button>
-                <button class="workspace-row" type="button">
-                  <svg class="branch-glyph icon" aria-hidden="true"><use href="#icon-git-branch" /></svg>
-                  <span><b>acorn</b><small>main</small></span>
-                </button>
-                <p class="sidebar-label sessions-label">SESSIONS</p>
-                <button class="session-row is-current" type="button">
-                  <span class="session-number">01</span>
-                  <span><b>Theme archive</b><small>working</small></span>
-                  <i></i>
-                </button>
-                <button class="session-row" type="button">
-                  <span class="session-number">02</span>
-                  <span><b>Release notes</b><small>idle</small></span>
-                </button>
-                <div class="sidebar-bottom">
-                  <svg class="icon" aria-label="New session"><use href="#icon-plus" /></svg>
-                  <svg class="icon" aria-label="Command palette"><use href="#icon-command" /></svg>
-                  <svg class="icon" aria-label="Settings"><use href="#icon-settings" /></svg>
-                </div>
-              </aside>
-
-              <section class="terminal-pane acorn-terminal-shell">
-                <div class="terminal-tabs">
-                  <span class="terminal-tab is-current">Theme archive <svg class="icon" aria-hidden="true"><use href="#icon-x" /></svg></span>
-                  <span class="terminal-tab">README.md <svg class="icon" aria-hidden="true"><use href="#icon-x" /></svg></span>
-                  <button type="button" aria-label="New tab"><svg class="icon"><use href="#icon-plus" /></svg></button>
-                  <span class="terminal-spacer"></span>
-                  <span><svg class="icon"><use href="#icon-panel-top" /></svg></span>
-                  <span><svg class="icon"><use href="#icon-ellipsis" /></svg></span>
-                </div>
-                <div class="terminal-output" aria-label="Terminal preview">
-                  <p><span class="prompt">studio</span> <span class="path">~/work/acorn-themes</span> <span class="git">git:main</span></p>
-                  <p><span class="command">$ pnpm validate</span></p>
-                  <p class="muted">checking manifest.json</p>
-                  <p><span class="success">✓</span> <span id="manifest-theme-count">0</span> theme entries</p>
-                  <p><span class="success">✓</span> selectors match catalog ids</p>
-                  <p><span class="success">✓</span> required color tokens present</p>
-                  <p>&nbsp;</p>
-                  <p><span class="prompt">studio</span> <span class="path">~/work/acorn-themes</span> <span class="git">git:main</span></p>
-                  <p><span class="command">$ git status --short</span></p>
-                  <p><span class="warning">M</span> themes/<span id="terminal-file">retro-terminal.css</span></p>
-                  <p><span class="cursor" aria-hidden="true"></span></p>
-                </div>
-                <footer class="terminal-statusbar">
-                  <span><i></i> ready</span>
-                  <span class="status-spacer"></span>
-                  <span>UTF-8</span><span>zsh</span><span>100%</span>
-                </footer>
-              </section>
-            </div>
+            <a id="css-link" class="download-button" href="#" download>
+              <svg class="icon"><use href="#icon-download" /></svg>
+              Download CSS
+            </a>
           </div>
 
-          <div class="palette-strip" id="palette-strip" aria-label="Theme color palette"></div>
-          <div class="theme-meta">
-            <span id="active-mode">DARK INTERFACE</span>
-            <span id="active-version">CATALOG VERSION 1</span>
-            <span>ACORN CSS VARIABLES</span>
+          <div class="terminal-shell">
+            <div class="terminal-toolbar">
+              <div class="terminal-session">
+                <span class="session-status"></span>
+                <span>theme-preview</span>
+                <small>zsh</small>
+              </div>
+              <div class="terminal-toolbar-actions">
+                <span>UTF-8</span>
+                <span>100%</span>
+              </div>
+            </div>
+            <div class="terminal-output" aria-label="Terminal preview">
+              <p>
+                <span class="prompt">acorn-themes</span>
+                <span class="path">~/work/acorn-themes</span>
+                <span class="git">git:main</span>
+              </p>
+              <p><span class="command">$ pnpm validate</span></p>
+              <p class="muted">checking manifest.json</p>
+              <p><span class="success">✓</span> <span id="manifest-theme-count">0</span> theme entries</p>
+              <p><span class="success">✓</span> selectors match catalog ids</p>
+              <p><span class="success">✓</span> required color tokens present</p>
+              <p>&nbsp;</p>
+              <p>
+                <span class="prompt">acorn-themes</span>
+                <span class="path">~/work/acorn-themes</span>
+                <span class="git">git:main</span>
+              </p>
+              <p><span class="command">$ git status --short</span></p>
+              <p><span class="warning">M</span> themes/<span id="terminal-file">theme.css</span></p>
+              <p>&nbsp;</p>
+              <p class="muted"># select another theme from the sidebar</p>
+              <p><span class="cursor" aria-hidden="true"></span></p>
+            </div>
           </div>
-        </article>
-      </section>
+        </section>
 
-      <footer class="site-footer">
-        <p>THE ACORN THEME ARCHIVE <span>—</span> COLOR FOR FOCUSED WORK</p>
-        <p>Maintained separately. Updated without an Acorn release.</p>
+        <aside class="inspector-panel" aria-label="Theme inspector">
+          <nav class="right-nav" aria-label="Acorn right panel">
+            <button class="right-nav-item is-active" type="button">
+              <svg class="icon"><use href="#icon-code" /></svg> Code
+            </button>
+            <button class="right-nav-item" type="button">
+              <svg class="icon"><use href="#icon-globe" /></svg> GitHub
+            </button>
+            <button class="right-nav-item" type="button">
+              <svg class="icon"><use href="#icon-bot" /></svg> Agents
+            </button>
+          </nav>
+          <div class="right-subnav">
+            <button class="is-active" type="button">
+              <svg class="icon"><use href="#icon-palette" /></svg> Theme
+            </button>
+            <button type="button">
+              <svg class="icon"><use href="#icon-history" /></svg> History
+            </button>
+            <button id="refresh-preview" class="refresh-button" type="button" aria-label="Refresh preview">
+              <svg class="icon"><use href="#icon-refresh" /></svg>
+            </button>
+          </div>
+
+          <div class="inspector-content">
+            <section class="inspector-section">
+              <p class="section-label">Active theme</p>
+              <div class="active-theme-card">
+                <div class="active-theme-icon">
+                  <svg class="icon"><use href="#icon-palette" /></svg>
+                </div>
+                <div>
+                  <strong id="inspector-active-name">Live Acorn preview</strong>
+                  <span>Every surface uses the selected CSS</span>
+                </div>
+                <span class="ready-badge"><svg class="icon"><use href="#icon-check" /></svg> Ready</span>
+              </div>
+            </section>
+
+            <section class="inspector-section">
+              <p class="section-label">Palette</p>
+              <div class="palette-strip" id="palette-strip" aria-label="Theme color palette"></div>
+              <div class="theme-meta">
+                <div><span>Appearance</span><strong id="active-mode">DARK</strong></div>
+                <div><span>Catalog</span><strong id="active-version">VERSION 1</strong></div>
+                <div><span>Format</span><strong>ACORN CSS</strong></div>
+              </div>
+            </section>
+
+            <section class="inspector-section install-section">
+              <p class="section-label">Use in Acorn</p>
+              <ol>
+                <li><span>1</span> Open Settings</li>
+                <li><span>2</span> Choose the Themes tab</li>
+                <li><span>3</span> Download this theme</li>
+              </ol>
+              <a class="secondary-action" href="https://github.com/im-ian/acorn">
+                Open Acorn repository
+                <svg class="icon"><use href="#icon-external-link" /></svg>
+              </a>
+            </section>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="statusbar">
+        <div class="status-left">
+          <span class="heartbeat">⌁</span>
+          <i class="online-dot"></i>
+          <span>themes: <b id="status-theme-count">50</b></span>
+          <span class="status-separator"></span>
+          <span>catalog: ready</span>
+        </div>
+        <div class="status-right">
+          <span><svg class="icon"><use href="#icon-settings" /></svg> Theme Library</span>
+          <span><svg class="icon"><use href="#icon-git-branch" /></svg> main</span>
+          <span>memory: 0 B</span>
+        </div>
       </footer>
-    </main>
 
-    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </main>
     <script type="module" src="./site.js"></script>
   </body>
 </html>
