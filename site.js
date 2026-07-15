@@ -8,6 +8,7 @@ const versionElement = document.querySelector("#active-version");
 const countElement = document.querySelector("#theme-count");
 const fileElement = document.querySelector("#terminal-file");
 const cssLink = document.querySelector("#css-link");
+const copyNameButton = document.querySelector("#copy-theme-name");
 const shareButton = document.querySelector("#share-theme");
 const paletteElement = document.querySelector("#palette-strip");
 const toastElement = document.querySelector("#toast");
@@ -144,6 +145,16 @@ shareButton.addEventListener("click", async () => {
     showToast("Theme link copied");
   } catch {
     showToast("Copy the URL from your browser");
+  }
+});
+
+copyNameButton.addEventListener("click", async () => {
+  if (!activeTheme) return;
+  try {
+    await navigator.clipboard.writeText(activeTheme.label);
+    showToast(`Copied ${activeTheme.label}`);
+  } catch {
+    showToast(`Theme name: ${activeTheme.label}`);
   }
 });
 

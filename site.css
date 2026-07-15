@@ -1108,6 +1108,10 @@ kbd {
     display: none;
   }
 
+  .copy-name-button {
+    display: inline-flex;
+  }
+
   .acorn-workspace {
     grid-template-columns: 1fr;
     min-height: 460px;
